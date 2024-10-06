@@ -1,0 +1,393 @@
+.firstDiv {
+  width: 1680px;
+  height: 300px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.secondDiv {
+  width: 750px;
+  height: 144px;
+  position: relative;
+  top: 120px;
+  left: 80px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Exo 2", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -0.015em;
+  text-align: left;
+}
+
+.thirdDiv {
+  width: 1520px;
+  position: absolute;
+  display: flex;
+  top: 334px;
+  left: 80px;
+  gap: 20px;
+  opacity: 0px;
+}
+.profile {
+  width: 493px;
+  height: 352px;
+}
+.profilecard1 {
+  width: 108px;
+  height: 108px;
+
+  background-size: cover;
+  position: absolute;
+}
+.profilecard2 {
+  width: 108px;
+  height: 108px;
+
+  background-size: cover;
+  position: absolute;
+}
+.profilecard3 {
+  width: 108px;
+  height: 108px;
+
+  background-size: cover;
+  position: absolute;
+}
+.profilename {
+  width: 493px;
+  height: 36px;
+  top: 148px;
+  position: absolute;
+  font-family: "Montserrat";
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #000000;
+}
+.profilename h4 {
+  margin: 0;
+}
+.profileinfo {
+  width: 493px;
+  height: 90px;
+  top: 208px;
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #000000cc;
+}
+.profilemore {
+  width: 493px;
+  height: 30px;
+  top: 322px;
+  position: absolute;
+  font-family: "Exo 2", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #18a0fb;
+}
+.fourthDiv {
+  width: 1680px;
+  height: 740px;
+  position: absolute;
+  top: 796px;
+
+  color: #ffffff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.fourthdivinfo {
+  width: 1520px;
+  height: 256px;
+  top: 152px;
+  left: 80px;
+  position: absolute;
+}
+
+.fourtitle {
+  width: 1520px;
+  height: 36px;
+  top: 152px;
+  left: 80px;
+  position: absolute;
+
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.015em;
+  text-align: center;
+}
+.four2 {
+  width: 1520px;
+  height: 89px;
+  top: 211px;
+  left: 80px;
+  position: absolute;
+
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.015em;
+  text-align: center;
+}
+.four3 {
+  width: 1520px;
+  height: 1px;
+  top: 332px;
+  left: 80px;
+  background: #ffffff80;
+  position: absolute;
+}
+.four4 {
+  width: 1518px;
+  height: 43px;
+  top: 365px;
+  left: 82px;
+  position: absolute;
+
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.015em;
+  text-align: center;
+}
+.four5 {
+  width: 500px;
+  height: 85px;
+  top: 1299px;
+  left: 589px;
+
+  position: absolute;
+  border: 1px 0px 0px 0px solid #ffffff;
+}
+.four6 {
+  width: 204px;
+  height: 19px;
+  top: 1299px;
+  left: 739px;
+  position: absolute;
+  font-family: "Exo 2", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  letter-spacing: -0.015em;
+  text-align: center;
+  color: #ffffff;
+  white-space: nowrap;
+}
+.four7 {
+  width: 500px;
+  height: 50px;
+  top: 1334px;
+  left: 589px;
+  gap: 0px;
+  border-radius: 7px;
+
+  position: absolute;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  backdrop-filter: blur(10px);
+}
+.four8 {
+  width: 446px;
+  height: 42px;
+  top: 1338px;
+  left: 600px;
+  position: absolute;
+  font-family: "Exo2";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.four9 {
+  width: 32px;
+  height: 32px;
+  top: 1343px;
+  left: 1047px;
+  position: absolute;
+
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.emailInput {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.emailInput.error {
+  border-color: red;
+}
+
+.errorMessage {
+  width: 182px;
+  height: 19px;
+  top: 70px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Exo2";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #ff6633;
+}
+
+.emailInput {
+  all: unset;
+}
+.error-border {
+  border-color: red;
+}
+
+.valid-border {
+  border-color: green;
+}
+.bottomDiv {
+  width: 1680px;
+  height: 301px;
+  top: 1536px;
+  gap: 0px;
+  border: 1px;
+  position: absolute;
+}
+.bottomDivtitle {
+  width: 750px;
+  height: 71px;
+  top: 1656px;
+  left: 80px;
+  position: absolute;
+  font-family: "Exo2";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -0.015em;
+  text-align: left;
+}
+.bottomemenu {
+  width: 408px;
+  height: 50px;
+  position: absolute;
+  top: 1787px;
+  left: 80px;
+
+  gap: 5px;
+  border-radius: 25px;
+  border-width: 1px;
+  opacity: 0.8;
+  border: 1px solid #00000080;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bottomemenu div {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bottomemenu div.active {
+  background-color: black;
+  color: white;
+
+  border-radius: 25px;
+}
+
+.bottomemenu1 {
+  width: 64px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 25px;
+}
+.bottomemenu2 {
+  width: 64px;
+  height: 40px;
+  color: #000000;
+  font-family: "Exo 2", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  letter-spacing: -0.015em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+}
+.bottomemenu3 {
+  width: 81px;
+  height: 40px;
+  top: 5px;
+  left: 143px;
+  font-family: "Exo2";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  letter-spacing: -0.015em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  border-radius: 25px;
+}
+.bottomemenu4 {
+  width: 81px;
+  height: 40px;
+  top: 5px;
+  left: 229px;
+  font-family: "Exo2";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  letter-spacing: -0.015em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  border-radius: 25px;
+}
+.bottomemenu5 {
+  width: 88px;
+  height: 40px;
+  top: 5px;
+  left: 315px;
+  border-radius: 25px;
+  font-family: "Exo2";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  letter-spacing: -0.015em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+}
